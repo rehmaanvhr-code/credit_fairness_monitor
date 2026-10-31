@@ -1,0 +1,9 @@
+{
+  "approval_threshold": 0.5,
+  "sensitive_attributes": ["gender", "age_group"],
+  "thresholds": {
+    "disparate_impact_min": 0.8,
+    "equalized_odds_diff_max": 0.1,
+    "auc_gap_max": 0.05
+  }
+}
